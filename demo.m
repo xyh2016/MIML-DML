@@ -3,7 +3,7 @@
 %   If you use this program in your results, please quote the paper:
 %   "Multi-instance multi-label distance metric learning for genome-wide protein function prediction"
 
-function demo
+function result=demo
 warning('off');
 addpath('auxiliary'); addpath('libsvm2.86');
 data=loadData(0.5);   result=testpercent(data,'0.5');
